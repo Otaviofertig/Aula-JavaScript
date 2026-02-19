@@ -7,11 +7,17 @@
 <script src="script.js"></script>
 </head>
 <body>
-    <h1>Calculadora de aprovação</h1>
-    <label>Digite a nota do aluno</label>
-    <input type="text" id="nota">
-    <button onclick="verificaAprovacao()">Verificar aprovação</button>
-    <p id="resultado"></p>
+    <h1>Calculadora de Descontos</h1>
+    <label>Digite o preço original</label>
+    <input type="number" id="preco" placeholder="R$ 10,0">
+    <br><br>
+
+    <label>Desconto</label>
+    <input type="number" id="desconto" placeholder="10%">
+    <br><br>
+
+    <button onclick="calcularDesconto()">Calcular</button>
+    
     
 </body>
 </html>
