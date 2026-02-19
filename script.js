@@ -1,10 +1,4 @@
-
-var num1 = 5;
-
-function varTeste1 () {
-   let num1;
-   console.log(num1);
+function verificaAprovacao () {
+    document.getElementById ("nota").value;
+    console.log(nota);
 }
-
-varTeste1();
-console.log(num1);
