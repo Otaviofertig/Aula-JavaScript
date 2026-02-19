@@ -1,7 +1,7 @@
 function calcularDesconto() {
-    let preco = document.getElementById("preco").value;
-    let desconto = document.getElementById("desconto").value;
-
+    let preco = parseFloat(document.getElementById("preco").value);
+    let desconto = parseFloat(document.getElementById("desconto").value);
+    
     if (isNaN(preco) || isNaN(desconto)) {
                 alert("Por favor, preencha todos os campos!");
                 return;
